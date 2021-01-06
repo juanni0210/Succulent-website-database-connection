@@ -1,0 +1,141 @@
+/*
+color-scheme 
+#cfcfcf
+#008000
+
+*/
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 0.75rem;
+}
+
+.masthead {
+    background-image: url(../img/masthead-img.jpg);
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 3.5em;
+}
+
+.logo {
+    color: #008000;
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.plants h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plants h5 {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.plants p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.plants .product-box {
+    border: 1px solid #cfcfcf;
+}
+
+footer .footer-logo {
+    font-size: 3em;
+    color: #008000;
+}
+
+footer .company-brand h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+footer .company-brand {
+    text-align: center;
+}
+
+footer .contact-info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    text-decoration: none;
+    color: black;
+}
+
+footer .social-icons {}
+
+footer .social-icons a:link,
+footer .social-icons a:visited,
+footer .social-icons a:hover,
+footer .social-icons a:active {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+footer .copyright {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 36rem) {
+    body {
+        font-size: 1rem;
+    }
+
+    .masthead h1 {
+        font-size: 3rem;
+    }
+
+    .plants p {
+        font-size: 1.1rem;
+    }
+
+    footer .company-brand h1 {
+        font-size: 2rem;
+    }
+
+    footer .contact-info {
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    .masthead h1 {
+        font-size: 3.5rem;
+    }
+
+    footer .company-brand h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 60rem) {
+    .masthead h1 {
+        font-size: 4rem;
+    }
+}
